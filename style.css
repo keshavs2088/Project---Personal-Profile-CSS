@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Nickainley";
+  src: url("fonts/Nickainley-Normal.woff2") format("woff2"),
+    url("fonts/Nickainley-Normal.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.front {
+  background-image: url(./images/blue.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.container-front {
+  height: 100%;
+  display: grid;
+  justify-content: center;
+}
+
+.front-logo {
+  border-radius: 40%;
+}
+
+h1 {
+  font-family: "Nickainley", cursive;
+  color: rgb(255, 117, 31);
+  font-size: 70px;
+}
+
+h2 {
+  font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+  color: rgb(24, 0, 173);
+}
+
+.feature p {
+  font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+  color: rgb(24, 0, 173);
+  font-size: 20px;
+}
+
+h3 {
+  font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+  color: rgb(124, 173, 163);
+  font-weight: bold;
+  font-size: 0px;
+}
+
+.photo {
+  border-radius: 30%;
+}
+
+.pro-active {
+  justify-content: center;
+}
+
+.footer {
+  background-color: rgb(17, 50, 87);
+}
+
+.contact {
+  color: aliceblue;
+  font-size: 30px;
+}
